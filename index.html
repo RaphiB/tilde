@@ -17,35 +17,33 @@
       },
       {
         category: 'Work',
-        name: 'Drive',
+        name: 'OneDrive',
         key: 'd',
-        url: 'https://drive.google.com',
-        search: '/drive/search?q={}',
+        url: 'https://onedrive.live.com/',
         color: 'linear-gradient(135deg, #4285f4, #4259f4)',
       },
+	{
+        category: 'Work',
+        name: 'Googlemail',
+        key: 'g',
+        url: 'https://accounts.google.com/',
+        color: 'linear-gradient(135deg, #00b7ea, #009ec3)',
+      },
+
       {
         category: 'Work',
         name: 'GitHub',
-        key: 'g',
+        key: 'h',
         url: 'https://github.com',
         search: '/search?q={}',
         color: 'linear-gradient(135deg, #8ccae1, #6dabd6)',
       },
-      {
+	{
         category: 'Work',
-        name: 'Keep',
-        key: 'k',
-        url: 'https://keep.google.com',
-        search: '/#search/text={}',
+        name: 'Xing',
+        key: 'x',
+        url: 'https://xing.de',
         color: 'linear-gradient(135deg, #fca550, #fcd050)',
-      },
-      {
-        category: 'Lurk',
-        name: 'Hunt',
-        key: 'p',
-        url: 'https://www.producthunt.com',
-        search: '/search?q={}',
-        color: 'linear-gradient(135deg, #da552f, #da802f)',
       },
       {
         category: 'Lurk',
@@ -64,28 +62,20 @@
         color: '#000',
       },
       {
-        category: 'Listen',
-        name: 'Hypem',
-        key: 'h',
-        url: 'https://hypem.com/popular',
-        search: '/search/{}',
+        category: 'News',
+        name: 'Heise Security',
+        key: 'H',
+        url: 'https://www.heise.de/security',
+        search: '/suche/?q={}',
         color: 'linear-gradient(135deg, #83c441, #62c441)',
       },
       {
-        category: 'Listen',
-        name: 'Line Radio',
-        key: 'l',
-        url: 'https://linerad.io',
-        search: '/#{}',
+        category: 'News',
+        name: 'Golem',
+        key: 'G',
+        url: 'https://www.golem.de',
+        search: '/search.php?l=10&q={}',
         color: 'linear-gradient(135deg, #a29bfe, #bb9bfe)',
-      },
-      {
-        category: 'Listen',
-        name: 'SoundCloud',
-        key: 's',
-        url: 'https://soundcloud.com/discover',
-        search: '/search?q={}',
-        color: 'linear-gradient(135deg, #ff8800, #ffc800)',
       },
       {
         category: 'Watch',
@@ -106,58 +96,18 @@
         category: 'Watch',
         name: 'YouTube',
         key: 'y',
-        url: 'https://youtube.com/feed/subscriptions',
+        url: 'https://youtube.com/',
         search: '/results?search_query={}',
         color: 'linear-gradient(135deg, #cd201f, #cd4c1f)',
       },
       {
-        category: 'Learn',
-        name: 'Academy',
-        key: 'a',
-        url: 'https://www.khanacademy.org',
-        search: '/search?page_search_query={}',
-        color: 'linear-gradient(135deg, #9cb443, #80b443)',
-      },
-      {
-        category: 'Learn',
-        name: 'Coursera',
-        key: 'c',
-        url: 'https://www.coursera.org',
-        search: '/courses?query={}',
-        color: 'linear-gradient(135deg, #407ED7, #4058d7)',
-      },
-      {
-        category: 'Learn',
-        name: 'Egghead',
-        key: 'e',
-        url: 'https://egghead.io',
-        search: '/search?q={}',
-        color: 'linear-gradient(135deg, #171C23, #171923)',
-      },
-      {
-        category: 'Download',
-        name: 'Bay',
-        key: 'b',
-        url: 'https://thepiratebay.org',
-        search: '/search/{}',
-        color: 'linear-gradient(135deg, #d2b9a6, #d2c4a6)',
-      },
-      {
-        category: 'Download',
-        name: 'YTS',
-        key: 'Y',
-        url: 'https://yts.am/browse-movies/all/1080p/all/7/latest',
-        search: '/browse-movies/{}',
-        color: 'linear-gradient(135deg, #2f2f2f, #373737)',
-      },
-      {
-        category: 'Download',
-        name: '7digital',
-        key: '7',
-        url: 'https://us.7digital.com',
-        search: '/search?q={}',
-        color: 'linear-gradient(135deg, #07606e, #07466e)',
-      },
+        category: 'Shopping',
+	name: 'Amazon',
+	key: 'a',
+	url: 'https://amazon.de/',
+	search: '/s?k={}',
+        color: 'linear-gradient(135deg, #fb83fa, #e93cec)',
+	},
     ],
 
     /**
@@ -221,7 +171,7 @@
     /**
      * The delimiter between the hours and minutes on the clock.
      */
-    clockDelimiter: ' ',
+    clockDelimiter: ':',
 
     /**
      * Show a twenty-four-hour clock instead of a twelve-hour clock with AM/PM.
@@ -241,7 +191,7 @@
 <style type="text/css">
   :root {
     /* colors */
-    --background: #fff;
+    --background: #a3e4d7;
     --foreground: #232931;
     --searchBackground: #000;
     --searchForeground: #fff;
